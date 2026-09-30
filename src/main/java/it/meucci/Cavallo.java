@@ -19,7 +19,7 @@ public final class Cavallo extends Thread {
     public void run() {
         Random r = new Random();
         while (distanza_percorsa < DISTANZA_DA_PERCORRERE) {
-            distanza_percorsa += r.nextInt(1, 200);
+            distanza_percorsa += r.nextInt(35, 477);
             System.out.println(
                     nome + " ha percorso " +
                             distanza_percorsa + " metri");

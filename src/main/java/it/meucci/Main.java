@@ -31,7 +31,7 @@ public class Main {
         for (int i = 0; i < classifica.size(); i++) {
             System.out.println(
                     (i + 1) + "° posto: " +
-                    classifica.get(i).getName()
+                    classifica.get(i).getNome()
             );
         }
     }
