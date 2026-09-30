@@ -10,8 +10,8 @@ public class Main {
 
         cavalli.add(new Cavallo("Scintilla", classifica));
         cavalli.add(new Cavallo("Golem", classifica));
-        cavalli.add(new Cavallo("Fulmine", classifica));
-        cavalli.add(new Cavallo("Freccia", classifica));
+        cavalli.add(new Cavallo("gigante elettrico", classifica));
+        cavalli.add(new Cavallo("megaknight", classifica));
 
         for (Cavallo cavallo : cavalli) {
             cavallo.start();
