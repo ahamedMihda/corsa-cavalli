@@ -25,7 +25,7 @@ public final class Cavallo extends Thread {
                             distanza_percorsa + " metri");
 
             try {
-                int sleepToken = r.nextInt(r.nextInt(10, 200));
+                int sleepToken = r.nextInt(r.nextInt(10, 700));
                 if (sleepToken >= 179)
                     System.out.println(nome + " : ha urtato un altro cavallo");
                 Thread.sleep(sleepToken);
